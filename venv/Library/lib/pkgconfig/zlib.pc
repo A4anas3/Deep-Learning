@@ -1,0 +1,13 @@
+prefix=B:/MLDeepLearning/venv/Library
+exec_prefix=B:/MLDeepLearning/venv/Library
+libdir=B:/MLDeepLearning/venv/Library/lib
+sharedlibdir=B:/MLDeepLearning/venv/Library/lib
+includedir=B:/MLDeepLearning/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3.1
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
